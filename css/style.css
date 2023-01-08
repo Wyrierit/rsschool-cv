@@ -1,0 +1,98 @@
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+body {
+    background: url(../img/PortalBackground.jpg);
+    background-size: 100%;
+    font-family: "Motiva Sans", Sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: white;
+}
+.container {
+    padding: 20px 0;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.userinfo {
+    display: flex;
+    background: rgb(0, 0, 0, 0.75);
+    border: 2px dotted #e6c333;
+    box-shadow: 4px 4px #20d038;
+}
+
+.photo {
+    float: left;
+    padding: 10px;
+    width: 184px;
+    height: 184px;
+}
+.avatar {
+    width: inherit;
+    height: inherit;
+    border: 2px solid #54a5d4;
+}
+.about {
+    float: left;
+    color: white;
+}
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+}
+.contacts {
+    padding: 0px 0px 0px 5px;
+    color: white;
+}
+.programming-level {
+    padding-right: 10px;
+    margin-left: auto;
+    padding-top: 0.67em;
+    color: white;
+    font-size: 24px;
+}
+.number {
+    color: red;
+    padding: 5px;
+    border: 2px solid red;
+    border-radius: 10px;;
+    display: flex;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.about-section {
+    float: left;
+    padding: 0 20px;
+    width: 60%;
+    background: rgb(0, 0, 0, 0.75);
+    border: 2px dotted #e6c333;
+    box-shadow: 4px 4px #20d038;
+}
+
+.h2section {
+    font-weight: 400;
+    border-bottom: 2px solid #e6c333;
+}
+.aside {
+    float: right;
+    padding: 0 20px;
+    width: 32%;
+    background: rgb(0, 0, 0, 0.75);
+    border: 2px dotted #e6c333;
+    box-shadow: 4px 4px #20d038;
+}
+.hltv {
+    color: #e6c333;
+    text-decoration: underline;
+
+}
+.footer {
+    background: #e6c333;
+
+}
